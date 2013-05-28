@@ -220,13 +220,13 @@ p a {
 
 #body div#aside h2 {
 	background: url(../images/bg-content-heading.jpg) no-repeat;
-	color: #fff9fc;
+	color: #fcfffc;/*fff9fc*/
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
 	margin: 0 0 18px;
-	text-shadow: 0 1px #e68ca8;
+	text-shadow: 0 1px #58a858; /*e68ca8*/
 	width: 643px;
 }
 
@@ -384,21 +384,21 @@ p a {
 }
 
 #body div#sidebar div div {
-	background: #e9dadf;
+	background: #95ff95; /*e9dadf*/
 	padding: 13px 13px 0;
 	width: 214px;
 }
 
 #body div#sidebar div div h3 {
 	background: #008002 url(../images/bg-sidebar-heading.gif) no-repeat right top;/*ee7199*/
-	color: #fffafc; /*fffafc*/
+	color: #fcfffc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
 	height: 28px;
 	line-height: 33px;
 	margin: 0;
 	text-align: center;
-	text-shadow: 0 1px #e68ca8;
+	text-shadow: 0 1px #58a858;
 	width: 215px;
 }
 
