@@ -2,7 +2,7 @@
 
 body {
 	background: url(../images/bg-body.gif) repeat center top;
-	color: #807e7f;
+	color: #504e4f;/*807e7f 504e4f*/
 	font-family: 'SortsMillGoudyRegular';
 	font-size: 14px;
 	margin: 0;
@@ -19,7 +19,7 @@ img {
 }
 
 p a {
-	color: #807e7f;
+	color: #504e4f; /*807e7f*/
 }
 
 #page {
@@ -60,18 +60,18 @@ p a {
 }
 
 #header ul li a {
-	color: #831a3b;
+	color: #105012; /*831a3b*/
 	display: block;
 	line-height: 51px;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-shadow: 0 1px #ff97b8;
+	text-shadow: 0 1px #77df68; /*ff97b8*/
 }
 
 #header ul li.current a,
 #header ul li a:hover {
-	color: #fff5f5;
-	text-shadow: 0 1px #d5426f;
+	color: #f5fff5;/*f5fff5*/
+	text-shadow: 0 1px #00a100; /*d5426f*/ /*7aff7a*/
 }
 
 #body {
@@ -390,8 +390,8 @@ p a {
 }
 
 #body div#sidebar div div h3 {
-	background: #ee7199 url(../images/bg-sidebar-heading.gif) no-repeat right top;
-	color: #fffafc;
+	background: #008002 url(../images/bg-sidebar-heading.gif) no-repeat right top;/*ee7199*/
+	color: #fffafc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
 	height: 28px;
