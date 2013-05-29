@@ -122,7 +122,7 @@ p a {
 }
 
 #body div#aside div#section ul li span img {
-	border: 1px solid #C2C3BE;
+	border: 1px solid #BEC3BE;/*C2C3BE*/
 }
 
 #body div#aside div#section ul li div {
@@ -247,7 +247,7 @@ p a {
 }
 
 #body div#aside ul li a.readmore {
-	color: #cc5980;
+	color: #59cc80; /*cc5980*/
 	font-family: 'SortsMillGoudyItalic';
 	display: inline-block;
 	padding: 0 0 50px 35px;
@@ -257,7 +257,7 @@ p a {
 #body div#aside ul li span.date {
 	background: none;
 	display: block;
-	color: #ffa6c2;
+	color: #a6ffc2;/*ffa6c2*/
 	font-family: Arial, Helvetica, sans-serif;
 	height: auto;
 	font-style: italic;
