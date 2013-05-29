@@ -231,7 +231,7 @@ p a {
 }
 
 #body div#aside h2 a {
-	color: #fff9fc;
+	color: #f9fffc;/*fff9fc*/
 	display: inline-block;
 	text-decoration: none;
 }
@@ -243,7 +243,7 @@ p a {
 #body div#aside div.section div a.back:hover,
 #body div#aside div.section ul li a:hover,
 #body div#aside div#section ul li div h5 a:hover {
-	color: #831A3B;
+	color: #1a631a;/*831A3B*/
 }
 
 #body div#aside ul li a.readmore {
@@ -420,9 +420,9 @@ p a {
 }
 
 #body div#sidebar div div ul li a {
-	color: #533841;
+	color: #105012;/*533841*//**/
 	text-decoration: none;
-	text-shadow: 0 1px #fae9ef;
+	text-shadow: 0 1px #c0d0c0; /*fae9ef*/
 }
 
 #body div#sidebar div div ul li a:hover {
@@ -511,7 +511,7 @@ p a {
 }
 
 #footer p {
-	color: #791837;
+	color: #184918;/*791837*/
 	margin: 0;
 	text-align: center;
 }
