@@ -218,6 +218,25 @@ p a {
 	margin: 0 0 20px 35px;
 }
 
+#body div#aside ul li ul{
+    margin-bottom:40px;
+}
+
+#body div#aside ul li ul li{
+    margin-top:0px;
+    margin-bottom:-20px;
+    margin-left:40px
+}
+
+#body div#aside ul li ul li p{
+    
+    background: url(../images/arrow.gif) no-repeat left 9px;
+    display: block;
+	line-height: 24px;
+	padding: 0 0 0 15px;
+    line-height: 1.5em;
+}
+
 #body div#aside h2 {
 	background: url(../images/bg-content-heading.jpg) no-repeat;
 	color: #fcfffc;/*fff9fc*/
@@ -266,6 +285,33 @@ p a {
 	right: 40px;
 	top: 0;
 	width: auto;
+}
+
+#body div#aside div#references{
+    background: none;
+	height: auto;
+	margin: 0;
+	width: auto;
+}
+
+#body div#aside div#references div {
+    background: none;
+	height: auto;
+	margin: auto 0;
+	padding: 0 0 0 0px;
+	width: 580px;
+}
+
+#body div#aside div#references ul {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 580px;
+}
+
+#body div#aside div#references ul li {
+	float: left;
+	margin: 0 0px;
+	width: 190px;
 }
 
 #body div#aside div#paging {
@@ -329,6 +375,7 @@ p a {
 	margin: 0 15px;
 	width: 146px;
 }
+
 
 #body div#aside div.section ul li img {
 	border: 1px solid #c2c3be;
