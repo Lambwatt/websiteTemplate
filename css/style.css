@@ -287,11 +287,39 @@ p a {
 	width: auto;
 }
 
-#body div#aside div#references{
+#body div#aside div#work{
     background: none;
 	height: auto;
 	margin: 0;
 	width: auto;
+}
+
+#body div#aside div#work{
+    background: none;
+	height: auto;
+	margin: 0;
+	width: auto;
+}
+
+#body div#aside div#work div {
+    background: none;
+	height: auto;
+	margin: auto 0;
+	padding: 0 0 0 0px;
+	width: 580px;
+}
+
+#body div#aside div#work ul {
+	margin: 0 auto;
+    height: auto;
+	width: 580px;
+}
+
+#body div#aside div#work ul li {
+	float: left;
+	margin: 0 0px;
+    height: auto;
+	width: 190px;
 }
 
 #body div#aside div#references div {
