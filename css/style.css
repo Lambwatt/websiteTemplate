@@ -90,13 +90,56 @@ p a {
 }
 
 #body div#aside div {
-	background: url(../images/frame.gif) no-repeat;
+	/*background: url(../images/frame.gif) no-repeat;*/
 	height: 291px;
 	margin: 0 0 0 35px;
 	width: 608px;
 }
 
-#body div#aside div#section {
+#body div#aside div#games{
+    background: none;
+	height: auto;
+    margin: 0;
+}
+
+#body div#aside div#games div{
+    background: none;
+	height: auto;
+    margin: 0;
+    float:left;
+}
+
+#body div#aside div#games span{
+    position: relative;
+}
+
+#body div#aside div#games a{
+    background: none;
+    margin-left: 25px;
+    float: left;
+    width:  135px;
+}
+
+#body div#aside div#games p{
+    margin-left: 170px; 
+}
+
+#body div#aside div#games ul li{
+    overflow:hidden;
+    /*height:300;*/
+}
+
+#body div#aside div#games a.readmore{
+    padding: 0 0 0 0px;
+}
+
+#body div#aside div#section ul li {
+	margin: 0 0 30px;
+	overflow: hidden;
+    height: auto;
+}
+
+#body div#aside div#section ul li h2{
 	background: none;
 	height: auto;
 }
@@ -140,7 +183,7 @@ p a {
 }
 
 #body div#aside div#section ul li div h5 a {
-	color: #cd5a81;
+	color: #5acd5a;/*cd5a81*/
 }
 
 #body div#aside div#section ul li div p {
@@ -294,13 +337,6 @@ p a {
 	width: auto;
 }
 
-#body div#aside div#work{
-    background: none;
-	height: auto;
-	margin: 0;
-	width: auto;
-}
-
 #body div#aside div#work div {
     background: none;
 	height: auto;
@@ -320,6 +356,13 @@ p a {
 	margin: 0 0px;
     height: auto;
 	width: 190px;
+}
+
+#body div#aside div#references{
+    background: none;
+	height: auto;
+	margin: 0;
+	width: auto;
 }
 
 #body div#aside div#references div {
