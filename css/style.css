@@ -22,7 +22,19 @@ p a {
 	color: #504e4f; /*807e7f*/
 }
 
+iframe {
+    width:1050px;
+    height:800px;
+    margin-left:25px;
+    /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
+}
+
 #page {
+	background: url(../images/top-bar.gif) repeat-x center top;
+	width: 100%;
+}
+
+#arcadepage {
 	background: url(../images/top-bar.gif) repeat-x center top;
 	width: 100%;
 }
@@ -74,6 +86,16 @@ p a {
 	text-shadow: 0 1px #00a100; /*d5426f*/ /*7aff7a*/
 }
 
+#arcade {
+	background: url(../images/bg-page-no-line.gif) repeat-y ;
+    /*background-size: auto auto;*/
+	margin: 0 auto;
+	min-height: 800px;
+	overflow: hidden;
+	padding: 22px 25px 40px 0;
+	width: 1100px;
+}
+
 #body {
 	background: url(../images/bg-page.gif) repeat-y;
 	margin: 0 auto;
@@ -82,6 +104,7 @@ p a {
 	padding: 22px 25px 40px 0;
 	width: 925px;
 }
+
 
 #body div#aside {
 	float: left;
@@ -113,11 +136,19 @@ p a {
     position: relative;
 }
 
+
+#body div#aside div#games h2 a{
+    background: none;
+    margin-left: 0;
+    float: none;
+    width: auto;
+}
+
 #body div#aside div#games a{
     background: none;
     margin-left: 25px;
     float: left;
-    width:  135px;
+    width: 135px;
 }
 
 #body div#aside div#games p{
@@ -130,7 +161,7 @@ p a {
 }
 
 #body div#aside div#games a.readmore{
-    padding: 0 0 0 0px;
+    margin-left: 170px;
 }
 
 #body div#aside div#section ul li {
@@ -208,7 +239,7 @@ p a {
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
-	margin: 50px 0 18px;
+	margin: 0px 0 18px;
 	text-shadow: 0 1px #9e9e9e;
 	width: 643px;
 }
@@ -219,6 +250,7 @@ p a {
 	margin: 20px 0 0;
 }
 
+#arcade h2,
 #body div#aside h1,
 #body div#aside p,
 #body div#aside h4,
@@ -280,6 +312,7 @@ p a {
     line-height: 1.5em;
 }
 
+#arcade h2
 #body div#aside h2 {
 	background: url(../images/bg-content-heading.jpg) no-repeat;
 	color: #fcfffc;/*fff9fc*/
@@ -291,6 +324,7 @@ p a {
 	text-shadow: 0 1px #58a858; /*e68ca8*/
 	width: 643px;
 }
+
 
 #body div#aside h2 a {
 	color: #f9fffc;/*fff9fc*/
