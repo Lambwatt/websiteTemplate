@@ -120,8 +120,8 @@ iframe {
 
 #body {
 	background: url(../images/bg-page.gif) repeat-y;
-	margin: 0 auto;
-	min-height: 800px;
+	margin: -1px auto;
+	min-height: 1000px;
 	overflow: hidden;
 	padding: 22px 25px 40px 0;
 	width: 925px;
@@ -160,7 +160,7 @@ iframe {
 
 
 #body div#aside div#games h2 a{
-    background: none;
+    /*background: none;*/
     margin-left: 0;
     float: none;
     width: auto;
@@ -214,11 +214,13 @@ iframe {
 	height: 145px;
 	margin: 0;
 	position: static;
-	width: 144px;
+	width: 145px;
 }
 
 #body div#aside div#section ul li span img {
 	border: 1px solid #BEC3BE;/*C2C3BE*/
+    height: 145px;
+    width:  145px;
 }
 
 #body div#aside div#section ul li div {
@@ -334,7 +336,6 @@ iframe {
     line-height: 1.5em;
 }
 
-#arcade h2
 #body div#aside h2 {
 	background: url(../images/bg-content-heading.jpg) no-repeat;
 	color: #fcfffc;/*fff9fc*/
@@ -492,7 +493,7 @@ iframe {
 }
 
 #body div#aside div.section ul {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: 0 auto;
 	width: 535px;
 }
@@ -553,7 +554,7 @@ iframe {
 
 #body div#sidebar div {
 	background: url(../images/bg-sidebar-bottom.jpg) no-repeat center bottom;
-	padding: 0 0 54px;
+	padding: 0 0 50px;
 	width: 246px;
 }
 
@@ -589,9 +590,9 @@ iframe {
 	padding: 0 0 0 15px;
 }
 
-#body div#sidebar div div ul li:first-child {
+/*#body div#sidebar div div ul li:first-child {
 	background: url(../images/arrow-down.gif) no-repeat left 8px;
-}
+}*/
 
 #body div#sidebar div div ul li a {
 	color: #105012;/*533841*//**/
