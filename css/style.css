@@ -18,6 +18,10 @@ img {
 	border: 0;
 }
 
+img#contact_img {
+    margin-left:-5px;
+}
+
 p a {
 	color: #504e4f; /*807e7f*/
 }
