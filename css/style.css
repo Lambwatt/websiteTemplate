@@ -28,8 +28,8 @@ p a {
 
 iframe {
     display: block;
-    width:889px;
-    height:667px;
+    width:800px; /*889px;*/
+    height:600px; /*667px;*/
     margin:0 auto;
     /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
 }
@@ -46,7 +46,7 @@ iframe {
 
 #arcadeheader {
 	background: url(../images/bg-header-expanded.jpg) no-repeat center top;
-	height: 122px;
+	height: 123px;
 	margin: 0 auto;
 	overflow: hidden;
 	width: 1100px;
@@ -333,7 +333,7 @@ iframe {
 
 #body div#aside ul li ul li p{
     
-    background: url(../images/arrow.gif) no-repeat left 9px;
+    background: url(../images/arrow-grey.jpg) no-repeat left 9px;
     display: block;
 	line-height: 24px;
 	padding: 0 0 0 15px;
