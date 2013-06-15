@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jeode by Michael Pattie</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="arcadepage">
+		<div id="arcadeheader">
+			<div>
+				<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+			</div>
+			<ul>
+				<li class="current">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="resume.html">Resume</a>
+				</li>
+				<li>
+					<a href="prototypes.html">Prototypes</a>
+				</li>
+				<li>
+					<a href="links.html">External Links</a>
+				</li>
+			</ul>
+		</div>
+            <div id="arcade">
+                <h2>Jeode</h2>
+                <p>Jeode is tool to create simple templates for javascript games, since a javascript game entails an html page with a canvas that invokes one or more scripts. Unlike my Flashpunk projects, all the infrastructure beyond rendering to the screen needs to be recreated for each new project. Knowing I would need to constantly import large portions with slight variations and that copy pasting would usually lead to bugs that might not be discovered until much later in development, I started working on Jeode to create the initial infrasturcture for whatever I needed.  </p>
+                <p>The program uses comments in javascript and html files to insturct itself on what to record and write into the final product. Once the core instruction set of Jeode is complete and available, most modifications and additions will be done entirely in the template files instread of the application. The importance of the meta-data being in comments is questionable since the system only performs a single execution in the present version. However, I hope to add an updating system that will rely on the metadata still being around. The comment requirements are pulled from formats.rb so that other languages could be supported with just the addition of the format data and the corresponding template files.</p>
+                <p>Feel free to check out the code for yourself on <a href="https://github.com/Lambwatt/jeode">github<a></p>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

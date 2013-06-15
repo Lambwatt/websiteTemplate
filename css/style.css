@@ -28,8 +28,8 @@ p a {
 
 iframe {
     display: block;
-    width:800px; /*889px;*/
-    height:600px; /*667px;*/
+    width: 889px;
+    height: 667px;
     margin:0 auto;
     /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
 }
@@ -221,6 +221,7 @@ iframe {
 	width: 145px;
 }
 
+#body div#aside div#games img,
 #body div#aside div#section ul li span img {
 	border: 1px solid #BEC3BE;/*C2C3BE*/
     height: 145px;
