@@ -34,6 +34,14 @@ iframe {
     /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
 }
 
+#iframe_theRoom {
+    display: block;
+    width: 840px;
+    height: 650px;
+    margin:0 130px;
+    /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
+}
+
 #page {
 	background: url(../images/top-bar.gif) repeat-x center top;
 	width: 100%;
@@ -120,6 +128,16 @@ iframe {
 	overflow: hidden;
 	padding: 0px 0px 0px 0;
 	width: 1100px;
+}
+
+#arcade_theRoom {
+	background: url(../images/bg-page-expanded.jpg) repeat-y ;
+    /*background-size: auto auto;*/
+	margin: -20px 133px;
+	min-height: 700px;
+	overflow: visible;
+	padding: 0px 0px 0px 0;
+	width: 1200px;
 }
 
 #arcade div{
@@ -284,6 +302,9 @@ iframe {
 	margin: 20px 0 0;
 }
 
+#arcade_theRoom h2{
+	padding: 0px 22px 0px 35px;
+}
 #arcade h2,
 #body div#aside h1,
 #body div#aside p,
