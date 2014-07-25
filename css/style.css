@@ -34,6 +34,14 @@ iframe {
     /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
 }
 
+#iframe_coffee{
+    display: block;
+    width: 750px;/*889px;*/
+    height: 750px;/*667px;*/
+    margin:0 auto;
+    /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
+}
+
 #iframe_theRoom {
     display: block;
     width: 840px;
@@ -306,6 +314,7 @@ iframe {
 	padding: 0px 22px 0px 35px;
 }
 #arcade h2,
+#arcade p,
 #body div#aside h1,
 #body div#aside p,
 #body div#aside h4,
